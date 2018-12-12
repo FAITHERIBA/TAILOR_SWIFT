@@ -1,0 +1,79 @@
+div{
+
+}
+
+/*STYLING THE NAVBAR
+*/
+body, html{
+	height: 80%
+}
+.nav{
+	background: #D70000;
+	overflow: hidden;
+	padding-left: 250px;
+}
+
+.nav a{
+	float: left;
+	display: block;
+	color: #f2f2f2;	
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: underline;
+	font-size: 17px;
+	margin: 10px;
+}
+
+.nav a:hover{
+	background-color: maroon;
+	color: green;
+}
+
+.nav a:active {
+	background-color: maroon;
+	color: white;
+}
+
+div.hero-image{
+	background-image: url("img/banner.png");
+	height:20%;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+div.hero-text{
+				text-align: center;
+				position: absolute;
+				top: 20%;
+				left: 30%;
+				transform: translate(-50%, -50%);
+				color: #f95f97;
+}
+
+div.hero-text h1 {
+	font-size: 3em;
+}
+
+div.hero-text a button {
+	border-radius: 20px;
+	color: pink;
+	border-color: maroon;
+	background-color: white;
+	padding:10px;
+
+}
+
+
+.start{
+	width: 30%;
+	height: 30%px;
+}
+
+div.first{
+	display: inline-flex;
+}
+
+div.second{
+	display: inline-flex;
+}
